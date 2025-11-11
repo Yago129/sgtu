@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# 📚 SGTU - Sistema de Gerenciamento de Tarefas Universitárias
 
-## Project info
+O Sistema de Gerenciamento de Tarefas Universitárias (SGTU) é um projeto destinado a ajudar estudantes a organizar disciplinas, tarefas, prazos e eventos acadêmicos de forma simples e eficiente.
 
-**URL**: https://lovable.dev/projects/1b7fed3b-35c5-49c1-bd80-fe44509447c6
+---
 
-## How can I edit this code?
+## 🚀 Como Rodar o Projeto Localmente
 
-There are several ways of editing your application.
+Certifique-se de que você tem o **Node.js (e npm)** instalado em sua máquina.
 
-**Use Lovable**
+1.  **Clone o Repositório:**
+    ```sh
+    git clone [https://github.com/Yago129/sgtu.git](https://github.com/Yago129/sgtu.git)
+    ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b7fed3b-35c5-49c1-bd80-fe44509447c6) and start prompting.
+2.  **Acesse a Pasta do Projeto:**
+    ```sh
+    cd sgtu
+    ```
 
-Changes made via Lovable will be committed automatically to this repo.
+3.  **Instale as Dependências:**
+    ```sh
+    npm install
+    ```
 
-**Use your preferred IDE**
+4.  **Inicie o Servidor de Desenvolvimento:**
+    ```sh
+    npm run dev
+    ```
+    O projeto será iniciado e você poderá acessá-lo no endereço (URL) fornecido no seu terminal.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias Utilizadas
 
-Follow these steps:
+Este projeto de frontend foi construído utilizando:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Framework:** React
+* **Empacotador:** Vite
+* **Linguagem:** TypeScript
+* **Estilização:** Tailwind CSS
+* **Componentes de UI:** shadcn-ui
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤝 Contribuição (Fluxo Git)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Para salvar e enviar suas alterações para o GitHub:
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1b7fed3b-35c5-49c1-bd80-fe44509447c6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1.  Prepare os arquivos: `git add .`
+2.  Crie um commit: `git commit -m "feat: Adiciona funcionalidade X"`
+3.  Envie para o GitHub: `git push`
